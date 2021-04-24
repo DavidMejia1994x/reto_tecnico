@@ -1,14 +1,14 @@
 package co.com.choucair.certificacion.retotecnico.tasks.opensite;
 
-import co.com.choucair.certificacion.retotecnico.userinterface.FormularioDatosPersonalPage;
 import co.com.choucair.certificacion.retotecnico.util.properties.PropertiesProject;
+import co.com.choucair.certificacion.retotecnico.userinterface.autenticacion.LoginPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import java.io.IOException;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class OpenSiteTask implements Task {
-  FormularioDatosPersonalPage usuario = new FormularioDatosPersonalPage ();
+  LoginPage usuario = new LoginPage ();
   public static OpenSiteTask openSite()
   {
     return instrumented(OpenSiteTask.class);
