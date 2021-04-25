@@ -7,9 +7,7 @@ import static co.com.choucair.certificacion.retotecnico.userinterface.publicacio
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.waits.WaitUntil;
-import org.openqa.selenium.JavascriptExecutor;
 import static co.com.choucair.certificacion.retotecnico.util.comunes.Esperar.esperarEnSegundos;
-
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isPresent;
 
 public class CrearPublicacion implements Task {

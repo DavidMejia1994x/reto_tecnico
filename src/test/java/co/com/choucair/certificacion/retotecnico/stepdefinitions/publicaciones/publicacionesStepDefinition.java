@@ -3,7 +3,6 @@ package co.com.choucair.certificacion.retotecnico.stepdefinitions.publicaciones;
 import co.com.choucair.certificacion.retotecnico.util.datos.CargarDatos;
 import cucumber.api.java.es.Entonces;
 import cucumber.api.java.es.Y;
-
 import java.util.List;
 import java.util.Map;
 import static co.com.choucair.certificacion.retotecnico.util.datos.DatosPrueba.obtener;

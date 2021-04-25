@@ -11,7 +11,6 @@ import java.io.IOException;
 
 @CucumberOptions(
         features ="src/test/resources/co.com.choucair.certificacion.retotecnico/features/publicaciones/publicaciones.feature",
-        tags = {"@TestCase3"},
         snippets = SnippetType.CAMELCASE,
         glue = {"co.com.choucair.certificacion.retotecnico.stepdefinitions"},
         plugin = {"json:target/cucumber_json/cucumber.json"}

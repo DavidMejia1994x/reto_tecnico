@@ -5,11 +5,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
-import net.serenitybdd.screenplay.rest.interactions.Delete;
 import net.serenitybdd.screenplay.waits.WaitUntil;
-import org.apache.tools.ant.filters.TokenFilter;
-import org.apache.tools.ant.taskdefs.Replace;
-
 import static co.com.choucair.certificacion.retotecnico.userinterface.publicaciones.PublicacionesPage.*;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 import static co.com.choucair.certificacion.retotecnico.util.comunes.Esperar.esperarEnSegundos;

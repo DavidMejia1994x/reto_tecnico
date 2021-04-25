@@ -38,7 +38,6 @@ Característica: Reto tecnico choucair ll
       | <titulo> | <slug> | <date> | <pass> |
     Entonces valida la edicion rapida de la publicacion
 
-    Entonces valida la edicion de la publicacion
     Ejemplos:
       | ID | user | password | titulo | slug | date | pass |
       ##@externaldata@./src/test/resources/co.com.choucair.certificacion.retotecnico/datadriver/edicionrapidapublicacion/crearpublicacion.xlsx@Datos
